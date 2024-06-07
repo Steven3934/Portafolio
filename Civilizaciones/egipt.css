@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    margin: 0;
+    color: black;
+    text-align: center;
+    padding: 5px 0px;
+    background-image: url(./general.png);
+    height: 80px;
+    width: 100%;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+p {
+    font-size: 19px;
+    margin: 0px 0px 10px 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.titu {
+    font-size: 3.5em;
+    margin: 30px 100px 5px 100px;
+}
+
+hr {
+    width: 85%;
+}
+
+.general {
+    display: flex;
+    margin: 30px 100px 0px 100px;
+}
+
+.texto {
+    width: 60%;
+    height: 250px;
+}
+
+.imgmeso {
+    background-image: url(./Egiptoc/Egipto/Egipto1.jpg);
+    margin: 70px 0px 0px 100px;
+    width: 358px;
+    height: 240px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.8);
+}
+
+.general2 {
+    display: flex;
+    margin: 30px 100px 0px 100px;
+}
+
+.texto2 {
+    width: 60%;
+    height: 250px;
+}
+
+.imgmeso2 {
+    background-image: url(./Egiptoc/Egipto/mapa_antiguo_egipto.png);
+    width: 365px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 40px 0px 0px 100px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.8);
+}
+
+.imgmeso3 {
+    background-image: url(./Egiptoc/Egipto/papelytinta.jfif);
+    width: 360px;
+    height: 130px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 90px -98px 0px 0px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.8);
+}
+
+.imgmeso4 {
+    background-image: url(./Egiptoc/Egipto/cosmeticos_egipcios.jpg);
+    width: 360px;
+    height: 130px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 100px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.8);
+}
+
+.imgmeso5 {
+    background-image: url(./Egiptoc/Egipto/cepillo_egipcio.jfif);
+    width: 360px;
+    height: 160px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 100px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.8);
+}
+
+.avances-tecnologicos {
+    margin: 30px 100px 0px 100px;
+}
+
+.imagenes-avances {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* Estilos existentes */
+
+#flecha {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 2em;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
